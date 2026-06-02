@@ -16,5 +16,6 @@ ganadores = [nombre for nombre in nombres if len(nombre) == longitud_maxima]
 print(f"longitud maxima: {longitud_maxima}")
 
 print("*"*40)
-print(f" los ganadores son: {ganadores}")
+for i in ganadores:
+   print(f"ganador: {nombre}")
 print("*"*40)
